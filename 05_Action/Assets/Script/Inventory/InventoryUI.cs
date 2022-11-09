@@ -16,7 +16,7 @@ public class InventoryUI : MonoBehaviour
         Transform slotParent = transform.GetChild(0);
         slotUIs = GetComponentsInChildren<ItemSlotUI>();
     }
-
+       
     /// <summary>
     /// 입력받은 인벤토리에 맞게 각종 초기화 작업을 하는 함수
     /// </summary>
